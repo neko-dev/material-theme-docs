@@ -119,4 +119,4 @@ layout: timeline
 ```
 >`title` 可修改，`layout` 不可修改。
 
-如果想添加「标签云」页面的入口，请参考 [独立页面](/intro/#pages)。
+如果想添加「时间轴」页面的入口，请参考 [独立页面](/intro/#pages)。
