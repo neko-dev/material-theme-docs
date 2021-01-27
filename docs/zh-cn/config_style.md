@@ -3,10 +3,7 @@
 ## scheme
 
 Material 主题提供了多种分支主题外观，亦称「Scheme」。
-目前 Material 内置三种 Scheme：
-
-### Nexus（开发中）
-最为标准的 Material Design 样式。
+目前 Material 内置两种 Scheme：
 
 ### Paradox
 

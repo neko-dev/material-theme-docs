@@ -2,11 +2,7 @@
 
 ## scheme
 
-Material theme provides a variety of theme designs, also known as "Scheme". Material currently supports three schemes.
-
-### Nexus (under development)
-
-This is the most standard Material Design style.
+Material theme provides a variety of theme designs, also known as "Scheme". Material currently supports two schemes.
 
 ### Paradox (default)
 

@@ -1,78 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Material theme, an elegant & Material Design theme.">
-    <meta name="keywords" content="Hexo, hexo, theme, hexo theme, viosey, material theme, material design, material 主题">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/neko-dev/material-theme-docs@1.5.3.4/static/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="https://cdn.jsdelivr.net/gh/neko-dev/material-theme-docs@1.5.3.4/static/favicon.ico" type="image/x-icon">
-    <title>Material Theme</title>
-    <meta property="og:url" content="https://material.viosey.com">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Material Theme">
-    <meta property="og:description" content="Material theme, an elegant & Material Design theme.">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/neko-dev/material-theme-docs@1.5.3.4/static/css/style.min.css">
-    <link rel="stylesheet" href="https://fonts.geekzu.org/css?family=Roboto+Mono|Source+Sans+Pro:300,400,600">
-</head>
-
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Material Theme Docs</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
+    />
+  </head>
+  <body>
     <nav>
-        <a href="#/">简体中文</a>
-        <a href="#/en/">English</a>
+      <a href="#/">EN</a>
+      <a href="#/zh-cn/">中文</a>
     </nav>
-    <div id="app">Loading . . . . | 正在加载</div>
-</body>
-<script>
-    window.$docsify = {
-        name: '<b>Material Theme</b><br>Verison: 1.5.0',
-        nameLink: {
-            '/en/': '/#/en/',
-            '/': '/'
-        },
-
-        // GitHub Icon
-        repo: 'https://github.com/viosey/hexo-theme-material/',
-
-        // Google Analytics
-        ga: 'UA-83419544-1',
-
-        themeColor: '#757575',
-
-        // Search Support
-        search: {
-            maxAge: 43200000, // 过期时间，单位毫秒，默认一天
-            paths: 'auto',
-            placeholder: {
-                '/en/': 'Search',
-                '/': '搜索',
-            },
-            noData: {
-                '/en/': 'No Results',
-                '/': '找不到结果',
-            },
-        },
-
-        // load sidevar from _sidebar.md
-        loadSidebar: '_sidebar.md',
-        subMaxLevel: 2,
-        autoHeader: true,
-
-        // use jsdelivr load markdown file
-        basePath: 'https://mtd.nfz.moe/docs/',
-
-        //Auto2Top
-        auto2top: true,
-    }
-</script>
-
-<script src="https://cdnjs.cat.net/ajax/libs/docsify/4.3.6/docsify.min.js"></script>
-<script src="https://cdnjs.cat.net/ajax/libs/docsify/4.3.6/plugins/search.min.js"></script>
-<script src="https://cdnjs.cat.net/ajax/libs/prism/1.8.1/components/prism-yaml.min.js"></script>
-<script src="https://cdnjs.cat.net/ajax/libs/prism/1.8.1/components/prism-bash.min.js"></script>
-<script src="https://mtd.nfz.moe/static/js/jq.ag.import.js"></script>
-
-
+    <div id="app"></div>
+    <script>
+      window.$docsify = {
+        name: "Material",
+        repo: "",
+        search: "auto", // default
+        loadSidebar: true,
+        coverpage: true,
+        loadNavbar: true,
+      };
+    </script>
+    <!-- Docsify v4 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+    <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script> -->
+  </body>
 </html>
